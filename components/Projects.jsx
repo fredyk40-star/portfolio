@@ -9,12 +9,12 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-  title: 'Best Brain School Examination System',
+  title: 'Best Brain Quiz System',
   description: 'A secure, role-based academic assessment platform engineered with PHP and MySQL. Features include a custom "Browser Lockdown" anti-cheat system, automated grading algorithms with custom scales, bulk CSV grade management, and dynamic generation of PDF Terminal Reports.',
   tags: ['PHP', 'MySQL', 'JavaScript', 'AJAX', 'Security Architecture', 'CSS3'],
   image: '/images/projects/quiz-platform.jpg',
   github: 'https://github.com/fredyk40-star/best-brain-quiz-system',
-  live: 'http://bestbrainschool.rf.gd',
+  live: '',
   category: 'full-stack'
 },
     // Add more projects here...
