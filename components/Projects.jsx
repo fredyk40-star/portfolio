@@ -9,9 +9,9 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-  title: 'Best Brain Quiz System',
+  title: 'Best Brain International School Kumasi Quiz-System',
   description: 'A secure, role-based academic assessment platform engineered with PHP and MySQL. Features include a custom "Browser Lockdown" anti-cheat system, automated grading algorithms with custom scales, bulk CSV grade management, and dynamic generation of PDF Terminal Reports.',
-  tags: ['PHP', 'MySQL', 'JavaScript', 'AJAX', 'Security Architecture', 'CSS3'],
+  tags: ['PHP', 'MySQL', 'JavaScript', 'Security Architecture', 'CSS3'],
   image: '/images/projects/quiz-platform.jpg',
   github: 'https://github.com/fredyk40-star/best-brain-quiz-system',
   live: '',
@@ -20,7 +20,7 @@ export default function Projects() {
     // Add more projects here...
   ]
 
-  const categories = ['all', 'frontend', 'full-stack', 'mobile']
+  const categories = ['all', 'frontend', 'full-stack']
 
   const filteredProjects = filter === 'all' 
     ? projects 

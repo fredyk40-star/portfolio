@@ -3,18 +3,18 @@ import SkillBar from './SkillBar'
 
 export default function About() {
   const skills = [
-    { name: 'JavaScript', level: 90, color: '#f7df1e' },
-    { name: 'React', level: 85, color: '#61dafb' },
-    { name: 'Node.js', level: 80, color: '#339933' },
-    { name: 'TypeScript', level: 75, color: '#3178c6' },
-    { name: 'Next.js', level: 85, color: '#000000' },
-    { name: 'Tailwind CSS', level: 90, color: '#06b6d4' },
-    { name: 'MySQL', level: 70, color: '#430fbbff' },
+    { name: 'JavaScript', level: 80, color: '#f7df1e' },
+    { name: 'React', level: 50, color: '#61dafb' },
+    { name: 'Node.js', level: 50, color: '#339933' },
+    { name: 'TypeScript', level: 30, color: '#3178c6' },
+    { name: 'Next.js', level: 55, color: '#000000' },
+    { name: 'Tailwind CSS', level: 50, color: '#06b6d4' },
+    { name: 'MySQL', level: 50, color: '#430fbbff' },
   ]
 
   const tools = [
-    'Git & GitHub', 'VS Code', 'Figma', 'Postman', 'MongoDB', 'Firebase',
-    'Docker', 'AWS', 'Jest', 'Cypress', 'ESLint', 'Prettier', 'Webpack'
+    'Git & GitHub', 'VS Code',  'Postman', 'MongoDB', 'Firebase',
+    'Docker', 'ESLint', 'Prettier',
   ]
 
   return (
@@ -46,9 +46,9 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">My Journey</h3>
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                Hello! I'm a passionate web developer with over 3 years of experience 
-                building digital products. My journey started with simple HTML/CSS websites 
-                and evolved into full-stack development using the MERN stack.
+                Hello! I'm a passionate web developer currently
+                building digital products. My journey started with simple HTML/CSS websites and currently
+               evolving into full-stack development using the MERN stack.
               </p>
               <p>
                 I specialize in creating responsive, performant, and accessible web 
@@ -65,8 +65,8 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               {[
-                { number: '50+', label: 'Projects Completed' },
-                { number: '3+', label: 'Years Experience' },
+                { number: '1 and incoming', label: 'Projects Completed' },
+                { number: 'currently', label: 'Years Experience' },
                 { number: '100%', label: 'Client Satisfaction' },
                 { number: '24/7', label: 'Learning Mindset' },
               ].map((stat, index) => (
