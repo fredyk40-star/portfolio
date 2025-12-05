@@ -49,7 +49,7 @@ export default function Footer() {
         {/* Credits */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
-            Built with & Next.js
+            Built with React & Next.js
           </p>
         </div>
       </div>
