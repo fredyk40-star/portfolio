@@ -24,7 +24,7 @@ export default function Projects() {
       tags: ['React', 'Tailwind CSS', 'JavaScript'],
       image: '/images/projects/portfolio-website.jpg',
       github: 'https://github.com/fredyk40-star/portfolio-website',
-      live: 'https://fredyk40-star.github.io/portfolio-website/',
+      live: 'https://fredio.netlify.app/portfolio-website/',
       category: 'frontend'
     },
     {
