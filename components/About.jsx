@@ -65,8 +65,8 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               {[
-                { number: '1 and incoming', label: 'Projects Completed' },
-                { number: 'currently', label: 'Years Experience' },
+                { number: '3 and Incoming', label: 'Projects Completed' },
+                { number: 'Currently', label: 'Years Experience' },
                 { number: '100%', label: 'Client Satisfaction' },
                 { number: '24/7', label: 'Learning Mindset' },
               ].map((stat, index) => (

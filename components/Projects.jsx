@@ -17,6 +17,26 @@ export default function Projects() {
   live: '',
   category: 'full-stack'
 },
+    {
+      id: 2,
+      title: 'Portfolio Website',
+      description: 'A personal portfolio website to showcase my projects and skills, built with React and Tailwind CSS for a modern, responsive design.',
+      tags: ['React', 'Tailwind CSS', 'JavaScript'],
+      image: '/images/projects/portfolio-website.jpg',
+      github: 'https://github.com/fredyk40-star/portfolio-website',
+      live: 'https://fredyk40-star.github.io/portfolio-website/',
+      category: 'frontend'
+    },
+    {
+      id: 3,    
+      title: 'E-commerce Store Demo',
+      description: 'A full-featured e-commerce store with product listings, shopping cart, and checkout functionality, developed using the MERN stack.',
+      tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+      image: '/images/projects/ecommerce-store.jpg',
+      github: 'https://github.com/fredyk40-star/boutique-demo',
+      live: 'https://fredyk40-star.github.io/boutique-demo/',
+      category: 'full-stack'
+    },
     // Add more projects here...
   ]
 
